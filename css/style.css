@@ -1,0 +1,421 @@
+/* Created by http://freehtml5templates.com */
+
+/* basics */
+
+/* reset */
+* {
+margin: 0;
+padding: 0;
+}
+
+/* render html5 elements as block */
+header, footer, section, aside, nav, article {
+display: block;
+}
+
+/* standard body */
+#main_body {
+background:url(../images/mainbackground.jpg) no-repeat;
+margin: 0 auto;
+width: 960px;
+font: 15px/20px "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+background-color: rgb(242,242,242);
+}
+
+/* standard alignments */
+.alignleft {
+float: left;
+}
+
+img.alignleft {
+margin: 5px 10px 0 0; 
+}
+
+.alignright {
+float: right;
+}
+
+img.alignright {
+margin: 5px 0 0 10px; 
+}
+
+.center {
+text-align: center;
+}
+
+/* Hx tags */
+
+h1 {
+font-size: 40px;
+font-family: Garamond, Georgia, Times, "Times New Roman", serif;
+padding: 20px 0;
+}
+
+h2 {
+font-size: 24px;
+padding: 20px 0;
+}
+
+h2 a {
+color: #213458;
+}
+
+
+h3 {
+font-size: 18px;
+color: #213458;
+padding-bottom: 3px;
+border-bottom: #213458 1px solid;
+margin-bottom: 10px;
+}
+
+p {
+padding-bottom: 20px;
+}
+
+/* header */
+
+header {
+margin-top: 10px;
+background: #214F80; /* url("images/banner.jpg")*/
+height: 200px; /* for IE */
+min-height: 200px; /* for not-IE */
+-webkit-box-shadow: 3px 3px 7px #777;
+-moz-box-shadow: 3px 3px 7px #777;
+}
+
+
+#carousel-caption
+{
+  position:absolute;
+  color:white;/*white*/
+  font-family: 'Quantico', sans-serif;
+  font-size: 1.6em;/*1.8*/
+  top:90px;/*40*/
+  left:20px;
+}
+
+#carousel-description
+{
+	margin-left:150px;
+	margin-top:25px;
+	font-size: 0.8em;
+/*	margin:30px 0px 30px 30px;*/
+	width:900px;
+}
+
+#carousel-heading
+{
+  color:white;/*white*/
+  font-family: 'Quantico', sans-serif;
+  font-size: 2.1em;/*2.3*/
+  float:left;
+}
+
+header h1 {
+  color: white;
+  font-family: 'Quantico', sans-serif;
+  font-size: 2.3em;
+  position:relative;
+}
+
+header h1 a {
+color: white;
+text-decoration: none;
+}
+
+
+/* nav */
+
+nav {
+background: #003366;
+margin: 0 auto;
+width: 960px;
+display: block;
+float: left;
+-webkit-box-shadow: 3px 3px 7px #777;
+-moz-box-shadow: 3px 3px 7px #777;
+}
+
+nav .menu {
+font-size: 18px;
+font-weight: bold;
+margin-left: 12px;
+}
+
+nav .menu ul {
+list-style: none;
+margin: 0;
+}
+
+nav .menu li {
+float: left;
+position: relative;
+border-right: 1px solid #002040;
+display: block;
+}
+
+nav .menu a {
+display: block;
+text-decoration: none;
+color: #003366;
+padding: 0 30px;
+line-height: 50px;
+}
+
+nav .menu a:hover {
+color: #fff;
+}
+
+/* nav 1-level dropdowns */
+nav .menu li ul { 
+
+display: none; 
+}
+
+nav .menu ul li a {
+display: block;
+text-decoration: none;
+color: #fff;
+background: #003366;
+margin-left: 1px;
+white-space: nowrap;
+}
+nav .menu ul li a:hover { 
+
+background: #215080; 
+}
+
+nav .menu li:hover ul {
+
+display: block;
+position: absolute;
+}
+
+nav .menu li:hover li {
+float: none;
+}
+
+nav .menu li:hover a { 
+/*background: #a0acc3; */
+}
+
+nav .menu li:hover li a:hover { 
+background: #215080; 
+}
+
+/* content and sidebar layout */
+
+#main_content {
+float: left; 
+min-height: 750px;
+width: 650px;/*610*/ 
+margin: 0 0 10px 0; 
+padding: 30px 20px 5px 20px;
+background-color: #fff;
+-webkit-box-shadow: 3px 3px 7px #777;
+-moz-box-shadow: 3px 3px 7px #777;
+/*background:url(../images/mainbackground.jpg) no-repeat; 
+background-size:cover;*/
+}
+
+aside {
+float:right;
+text-align: left; 
+width: 265px; 
+margin:0; 
+padding:0;
+}
+
+/* article */
+
+article {
+float: left;
+width: 920px;
+margin-bottom: 50px;
+}
+
+.img-circle{
+	float: center;
+	width: 130px;
+	border-radius:50%;
+}
+
+article .thumb {
+float: right;
+width: 150px;
+padding-top: 18px;
+padding-right: 8px;
+/* curved border radius */
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+
+.title {
+width: 400px;
+font-size: 22px;
+font-weight: bold;
+color: #213458;
+}
+
+.smalltitle {
+float: left;
+width: 400px;
+font-size: 19px;
+font-weight: bold;
+margin-bottom: 10px;
+color: #213458;
+}
+
+article .story {
+width: 450px;
+}
+
+article .storylong {
+/*float: left;*/
+width: 650px;/*600px*/
+}
+
+/* sidebar */
+aside section {
+margin: 0 0 10px 0;
+padding: 30px 15px;
+background-color: #fff;
+-webkit-box-shadow: 3px 3px 7px #777;
+-moz-box-shadow: 3px 3px 7px #777;
+}
+
+aside section ul.arrowstyle{
+margin: 0 0 0 20px;
+list-style-image: url(images/arrow.gif);
+color: #213458;
+}
+
+ul.arrowstyle{
+margin: 0 0 0 20px;
+list-style-image: url(images/arrow.gif);
+color: #213458;
+}
+
+aside section ul.nonestyle{
+margin: 0 0 0 20px;
+list-style: none;
+/*list-style-image: url(images/arrow.gif);*/
+color: #213458;
+}
+
+ul.nonestyle{
+margin: 0 0 0 20px;
+list-style: none;
+/*list-style-image: url(images/arrow.gif);*/
+color: #213458;
+}
+
+ul.plain{
+margin: 0 0 0 20px;
+list-style-image: url(images/arrow.gif);
+}
+
+/*
+a.underline
+{
+  text-decoration: underline;
+  color: #0000aa;
+}
+*/
+
+aside section ul li a {
+display: block;
+text-decoration: none;
+color: #000;
+}
+
+aside section ul li a:hover {
+  text-shadow: #0090ff 0px 0px 2px;
+	color: #213458;
+}
+
+/* footer */
+footer {
+clear: both;
+float: left;
+background: #003366;
+width: 960px;
+color: #fff;
+margin-bottom: 10px;
+-webkit-box-shadow: 3px 3px 7px #777;
+-moz-box-shadow: 3px 3px 7px #777;
+}
+
+footer p {
+text-align: right;
+font-size: 11px;
+padding-right: 20px;
+}
+
+footer a {
+color: #999;
+}
+
+footer a:hover {
+color: #fff;
+text-decoration: none;
+}
+
+#keynote
+{
+  border-spacing: 35px 5px;
+}
+
+#social
+{
+  border-spacing: 35px 0px;
+}
+
+
+a
+{
+  text-decoration: none;
+  color: rgb(0, 126, 223);
+  text-shadow: none;
+  transition: color 0.5s ease;
+  transition: text-shadow 0.5s ease;
+}
+
+
+#past td {
+    padding: 0 40px 0 0;
+    vertical-align: top;
+}
+
+hr
+{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-width: 1px;
+  border-style: inset;
+}
+
+ul.topics
+{
+  padding-left: 30px;
+}
+
+td.topics
+{
+  padding: 0 40px 0 0;
+  vertical-align: top;
+}
+
+td.topics
+{
+  padding: 0 40px 0 0;
+  vertical-align: top;
+}
+
+td.follow
+{
+  padding: 5px 15px 0 0;
+  vertical-align: top;
+  text-align:center;
+}
